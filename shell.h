@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SHELL_H
+#define SHELL_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -76,4 +76,4 @@ void quit(char **);
 extern void non_interactive(void);
 extern void initializer(char **current_command, int type_command);
 
-#endif /*MAIN_H*/
+#endif /*SHELL_H*/
